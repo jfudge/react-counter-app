@@ -1,0 +1,25 @@
+.icon{
+    font-size: 100px;
+}
+
+h3{
+    font-size: 100px;
+}
+
+button#wrapper__button__increment {
+    background: none !important;
+    font-size: 100px;
+    border: none !important;
+}
+
+button#wrapper__button__decrement {
+    background: none !important;
+    font-size: 100px;
+    border: none !important;
+}
+
+button#wrapper__button__reset{
+    background: none !important;
+    font-size: 100px;
+    border: none !important;
+}
