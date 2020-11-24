@@ -6,20 +6,28 @@ h3{
     font-size: 100px;
 }
 
-button#wrapper__button__increment {
+button#up{
     background: none !important;
     font-size: 100px;
     border: none !important;
 }
 
-button#wrapper__button__decrement {
+button#down {
     background: none !important;
     font-size: 100px;
     border: none !important;
 }
 
-button#wrapper__button__reset{
+button#reset{
     background: none !important;
     font-size: 100px;
     border: none !important;
+}
+
+.p-btn{
+    width: 100%;
+}
+
+.wrapper{
+    margin-top: 30px;
 }

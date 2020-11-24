@@ -32,20 +32,20 @@ resetCounter = () =>{
         return (
           <div>
             <div className="raised-block bg-white text-center">
-                <button id="wrapper__button__increment" 
+                <button id="up" 
                                 className="button"
                                 onClick={this.addOne}>
                           <i className="fa fa-chevron-up"></i>
                         </button>
                 <h3 className="count">{this.state.count}</h3>
-                <button   id="wrapper__button__decrement" 
+                <button   id="down" 
                           className="button"
                                 onClick={this.deleteOne} >
                           <i className="fa fa-chevron-down"></i>
                         </button>
                         <div className="col-md-12">
                         <button 
-                          id="wrapper__button__reset"
+                          id="reset"
                                 onClick={this.resetCounter}
                                 className="button"
                                 >
@@ -55,9 +55,16 @@ resetCounter = () =>{
                          
             </div>
             <div className="button-container mt-2 bg-white">
-          
-              <input />
-              {/* <button className="btn btn-primary float-right m-4">PRIMARY</button> */}
+              <div className="row">
+              <div className="col-md-6">
+                <div className="wrapper">
+                  <input type="email" className="form-control" id="name" aria-describedby="name" placeholder="Name" />
+                </div>
+              </div>
+              <div className="col-md-6">
+              <button className="p-btn btn btn-primary btn-lg float-right m-4">PRIMARY</button>
+              </div> 
+              </div>
             </div>
           </div>
         );
