@@ -1,3 +1,28 @@
 .mainContent{
     margin-top: 85px;
 }
+
+
+
+
+
+.base-color {
+    background-color: steelblue;
+  }
+  
+  .counter {
+    height: 340px;
+  }
+  
+  .container {
+    padding: 0;
+  }
+  
+  .my-container {
+    height: 90px;
+  }
+  
+  .scrolling {
+    overflow: auto;
+    height: 260px;
+  }
